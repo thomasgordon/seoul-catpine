@@ -1,0 +1,158 @@
+{
+  "name": "Seoul CatPine",
+  "type": "dark",
+  "colors": {
+    // Editor Colors
+    "editor.background": "#4b4b4b",
+    "editor.foreground": "#f5e0dc",
+    "editorLineNumber.foreground": "#e1ceca",
+    "editorLineNumber.activeForeground": "#e0def4",
+    "editorCursor.foreground": "#f5e0dc",
+    "editor.selectionBackground": "#595959",
+    "editor.selectionHighlightBackground": "#767676",
+    "editor.wordHighlightBackground": "#595959",
+    "editor.wordHighlightStrongBackground": "#686868",
+
+    // Terminal Colors
+    "terminal.background": "#4b4b4b",
+    "terminal.foreground": "#f5e0dc",
+    "terminalCursor.background": "#4b4b4b",
+    "terminalCursor.foreground": "#f5e0dc",
+
+    // Activity Bar
+    "activityBar.background": "#4b4b4b",
+    "activityBar.foreground": "#f5e0dc",
+    "activityBar.inactiveForeground": "#e1ceca",
+    "activityBar.border": "#595959",
+    "activityBarBadge.background": "#9ccfd8",
+    "activityBarBadge.foreground": "#4b4b4b",
+
+    // Side Bar
+    "sideBar.background": "#4b4b4b",
+    "sideBar.foreground": "#f5e0dc",
+    "sideBar.border": "#595959",
+    "sideBarTitle.foreground": "#f5e0dc",
+    "sideBarSectionHeader.background": "#595959",
+    "sideBarSectionHeader.foreground": "#f5e0dc",
+
+    // Status Bar
+    "statusBar.background": "#595959",
+    "statusBar.foreground": "#f5e0dc",
+    "statusBar.border": "#4b4b4b",
+    "statusBar.debuggingBackground": "#e81050",
+    "statusBar.debuggingForeground": "#f5e0dc",
+    "statusBar.noFolderBackground": "#595959",
+    "statusBar.noFolderForeground": "#f5e0dc",
+
+    // Title Bar
+    "titleBar.activeBackground": "#4b4b4b",
+    "titleBar.activeForeground": "#f5e0dc",
+    "titleBar.inactiveBackground": "#595959",
+    "titleBar.inactiveForeground": "#e1ceca",
+
+    // Tabs
+    "tab.activeBackground": "#4b4b4b",
+    "tab.activeForeground": "#f5e0dc",
+    "tab.inactiveBackground": "#595959",
+    "tab.inactiveForeground": "#e1ceca",
+    "tab.border": "#595959",
+
+    // Editor Group
+    "editorGroupHeader.tabsBackground": "#4b4b4b",
+    "editorGroupHeader.tabsBorder": "#595959",
+    "editorGroup.border": "#595959",
+
+    // Scrollbar
+    "scrollbarSlider.background": "#59595980",
+    "scrollbarSlider.hoverBackground": "#595959b3",
+    "scrollbarSlider.activeBackground": "#595959cc",
+
+    // Breadcrumb
+    "breadcrumb.foreground": "#e1ceca",
+    "breadcrumb.background": "#4b4b4b",
+    "breadcrumb.focusForeground": "#f5e0dc",
+    "breadcrumb.activeSelectionForeground": "#f5e0dc",
+    "breadcrumbPicker.background": "#595959",
+
+    // Peek View (e.g., when you "peek" at references)
+    "peekViewEditor.background": "#4b4b4b",
+    "peekViewEditor.matchHighlightBackground": "#9ccfd8",
+    "peekViewResult.background": "#595959",
+    "peekViewResult.matchHighlightBackground": "#9ccfd8",
+    "peekViewTitle.background": "#4b4b4b",
+
+    // Notifications
+    "notification.background": "#4b4b4b",
+    "notification.foreground": "#f5e0dc",
+    "notificationButton.background": "#595959",
+    "notificationButton.foreground": "#f5e0dc",
+    "notificationButton.hoverBackground": "#686868",
+    "notificationCenterHeader.foreground": "#f5e0dc",
+    "notificationCenterHeader.background": "#4b4b4b",
+
+    // Dropdowns and Inputs
+    "dropdown.background": "#4b4b4b",
+    "dropdown.foreground": "#f5e0dc",
+    "dropdown.border": "#595959",
+    "input.background": "#4b4b4b",
+    "input.foreground": "#f5e0dc",
+    "input.border": "#595959",
+
+    // Debugging
+    "debugToolBar.background": "#595959",
+    "debugConsole.infoForeground": "#9ccfd8",
+    "debugConsole.errorForeground": "#e81050",
+    "debugConsole.warningForeground": "#e86310",
+    "debugConsole.sourceForeground": "#f5e0dc",
+
+    // Git Decoration (color for added/modified/removed code)
+    "gitDecoration.addedResourceForeground": "#9ccfd8",
+    "gitDecoration.modifiedResourceForeground": "#d78787",
+    "gitDecoration.deletedResourceForeground": "#e81050",
+    "gitDecoration.untrackedResourceForeground": "#9ccfd8",
+    "gitDecoration.conflictingResourceForeground": "#e86310",
+    "gitDecoration.ignoredResourceForeground": "#595959",
+
+    // Diff Editor
+    "diffEditor.insertedTextBackground": "#123d0f33",
+    "diffEditor.removedTextBackground": "#ff000033"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#949494"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#d78787"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#e0def4"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#c4a7e7"
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#9ccfd8"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#a27ea4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "seoul-catpine-theme",
+  "displayName": "Seoul CatPine",
+  "description": "A custom theme created by Tom Gordon, combining the colours of Cattpuccin, rose-pine and Seoul256.",
+  "version": "1.0.1",
+  "publisher": "thomasgordon",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Seoul CatPine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seoul-catpine.json"
+      }
+    ]
+  }
+}
